@@ -1,0 +1,797 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ilm Markazi — Rus tili onlayn</title>
+  <meta name="description" content="Ilm Markazi — rus tilini o‘rganish: noldan, gaplashuv, ish uchun. Tizim, amaliyot, natija." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container topbar__wrap">
+      <div class="topbar__left">
+        <span class="dot"></span>
+        <span class="topbar__text">Qabul ochiq</span>
+      </div>
+      <div class="topbar__right">
+        <a class="topbar__link" href="#contacts">Toshkent</a>
+        <a class="topbar__link" href="tel:+998000000000">+998 55 520 67 67</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__wrap">
+    <a class="brand" href="#">
+    <img id="brandLogo" class="brand__img" src="img/white.png" alt="Ilm Markazi" />
+
+    </a>
+      <nav class="nav" id="nav" aria-label="Asosiy menyu">
+        <a class="nav__link" href="#results">Natijalar</a>
+        <a class="nav__link" href="#kimuchun">Kurs haqida</a>
+        <a class="nav__link" href="#faq">FAQ</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="icon-btn" id="themeBtn" type="button" aria-label="Mavzuni almashtirish">🌙</button>
+        <button class="icon-btn burger" id="burger" type="button" aria-label="Menyuni ochish">☰</button>
+        <a class="btn btn--small" href="#cta-form">Ariza qoldirish</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__left">
+          <h1 id="mainh1">
+            90 kunda rus tilida
+            <span class="grad"> gapirasiz</span>
+          </h1>
+          <section class="metrics">
+            <div class="metrics-grid">
+
+              <div class="metric-card">
+                <img src="img/stepen.png" alt="">
+                <span>C1, C2 darajadagi ustozlar</span>
+              </div>
+
+              <div class="metric-card">
+                <img src="img/teacher.png" alt="">
+                <span>Amaliyot uchun alohida ustoz</span>
+              </div>
+
+              <div class="metric-card">
+                <img src="img/movie.png" alt="">
+                <span>Kino bilan tayyorlangan darslar</span>
+              </div>
+
+              <div class="metric-card">
+                <img src="img/garand.png" alt="">
+                <span>Natija 100% kafolatlangan</span>
+              </div>
+
+            </div>
+          </section>
+
+        </div>
+
+        <aside class="hero__right">
+          <div class="card glass">
+            <div class="card__head">
+              <h3></h3>
+              <p class="muted">Batafsil ma'lumot olish uchun raqamingizni qoldiring</p>
+            </div>
+
+            <form class="form" id="lead" autocomplete="on">
+              <label class="field">
+                <span>Ism</span>
+                <input name="name" placeholder="Ism" required />
+              </label>
+
+              <label class="field">
+                <span>Telefon</span>
+                <input name="phone" type="tel" inputmode="tel" placeholder="+998 55 520 67 67" required />
+              </label>
+              <div class="wa-note">
+                <img class="wa-note__icon" src="img/whatsapp.png" alt="WhatsApp" />
+                <div class="wa-note__text">
+                  Agar chet elda bo‘lsangiz WhatsApp nomeringizni yozib qoldiring
+                </div>
+              </div>
+              <button class="btn btn--full" type="submit">Arizani yuborish</button>
+
+              <div class="safe">
+                <!-- <span class="safe__icon">🔒</span>
+                <span class="tiny muted">Ma’lumotlar himoyalangan.</span> -->
+              </div>
+              <input type="hidden" name="utm_source">
+              <input type="hidden" name="utm_medium">
+              <input type="hidden" name="utm_campaign">
+              <input type="hidden" name="utm_content">
+              <input type="hidden" name="utm_term">
+
+            </form>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+<!-- O‘quvchilar natijasi (Shorts) -->
+    <section class="section" id="fikrlar">
+      <div class="container">
+        <h2 class="title center" id="results" style="text-align:center;color: #4f7cff;">O‘quvchilarimizning natijalari 🎉  </h2>
+
+        <div class="shorts-grid">
+          <a class="short-tile" href="https://www.youtube.com/shorts/bsoN5tbyuDI" data-video="bsoN5tbyuDI" target="_blank" rel="noopener" data-name="Ulug‘bek">
+            <div class="short-tile__thumb" style="background-image:url('https://i.ytimg.com/vi/bsoN5tbyuDI/hqdefault.jpg')">
+              <span class="short-play"></span>
+            </div>
+            <div class="short-name">Ulug‘bek</div>
+          </a>
+
+          <a class="short-tile" href="https://www.youtube.com/shorts/yDekwffTJRE" data-video="yDekwffTJRE" target="_blank" rel="noopener"  data-name="Nabijon">
+            <div class="short-tile__thumb" style="background-image:url('https://i.ytimg.com/vi/yDekwffTJRE/hqdefault.jpg')">
+              <span class="short-play"></span>
+            </div>
+            <div class="short-name">Nabijon</div>
+          </a>
+
+          <a class="short-tile" href="https://www.youtube.com/shorts/4MTY0gQGBXo" data-video="4MTY0gQGBXo"  target="_blank" rel="noopener"  data-name="Shaxruza">
+            <div class="short-tile__thumb" style="background-image:url('https://i.ytimg.com/vi/4MTY0gQGBXo/hqdefault.jpg')">
+              <span class="short-play"></span>
+            </div>
+            <div class="short-name">Shaxruza</div>
+          </a>
+
+          <a class="short-tile" href="https://www.youtube.com/shorts/pDAb5ykPnrs" data-video="pDAb5ykPnrs" target="_blank" rel="noopener"  data-name="Muslima">
+            <div class="short-tile__thumb" style="background-image:url('https://i.ytimg.com/vi/pDAb5ykPnrs/hqdefault.jpg')">
+              <span class="short-play"></span>
+            </div>
+            <div class="short-name">Diyorbek</div>
+          </a>
+
+          <a class="short-tile" href="https://www.youtube.com/shorts/A8_o6lTIIYk" data-video="A8_o6lTIIYk" target="_blank" rel="noopener"  data-name="Diyorbek">
+            <div class="short-tile__thumb" style="background-image:url('https://i.ytimg.com/vi/A8_o6lTIIYk/hqdefault.jpg')">
+              <span class="short-play"></span>
+            </div>
+            <div class="short-name">Muslima</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- System -->
+    <section class="timeline" id="qanday">
+      <div class="container">
+        <h2 class="timeline__title">Qachon, nimani o‘rganaman?</h2>
+
+        <div class="timeline__stage">
+          <article class="stage-card stage-card--left">
+            <div class="stage-card__top">1-oy</div>
+            <div class="stage-card__body">
+              <p>Tushunib gapira olmaslikdan — boshlang‘ich razgavgorgacha</p>
+              <span class="stage-card__icon"></span>
+            </div>
+          </article>
+
+          <article class="stage-card stage-card--center">
+            <div class="stage-card__top">2-oy</div>
+            <div class="stage-card__body">
+              <p>Boshlang‘ich razgavgordan — qiyin gaplarni tuzib, gapirishgacha</p>
+              <span class="stage-card__icon"></span>
+            </div>
+          </article>
+
+          <article class="stage-card stage-card--right">
+            <div class="stage-card__top">3-oy</div>
+            <div class="stage-card__body">
+              <p>O‘z fikringizni erkin muloqotda gapirishgacha</p>
+              <span class="stage-card__icon"></span>
+            </div>
+          </article>
+
+          <!-- dotted path -->
+          <div class="timeline__path" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+
+<section class="audience">
+  <div class="container">
+    <h2 class="audience__title" id="kimuchun">Kurslarimiz aynan:</h2>
+
+    <div class="audience__grid">
+      <!-- <div class="audience-card card-orange">
+        <h3>Abituriyentlar</h3>
+        <p>
+          Davlat va chet el universitetlari, litsey va boshqa
+          o‘quv muassasalari imtihonlariga tayyorlanuvchilar uchun
+        </p>
+      </div> -->
+
+      <div class="audience-card card-green">
+        <h3>Havaskorlar</h3>
+        <p>
+          Yangi til va madaniyatlarni o‘rganishga qiziquvchi
+          sayohatchilar, poliglotlar uchun
+        </p>
+      </div>
+
+      <div class="audience-card card-blue">
+        <h3>Ma'lum kasb egalari</h3>
+        <p>
+          Qo‘shimcha til bilish orqali o‘z karyerasida
+          o‘sishni reja qilayotgan xodimlar uchun
+        </p>
+      </div>
+
+
+      <div class="audience-card card-yellow">
+        <h3>Chet eldagi yurtdoshlarimiz</h3>
+        <p>
+          Ishlash, o‘qish va kundalik muloqot uchun
+          tilga ehtiyoji bo‘lganlar uchun ideal tanlov
+        </p>
+      </div>
+    </div>
+
+    <a href="#lead" class="btn audience__cta" href="#cta-form">Ishtirok etish!</a>
+  </div>
+</section>
+
+<section class="expect2" id="kutmoqda">
+  <div class="container">
+    <h2 class="expect2__title">Sizni nima kutmoqda?</h2>
+    
+
+    <div class="expect2__grid">
+      <!-- 1: Materiallar + platforma -->
+      <article class="expect2-card">
+        <div class="expect2-card__head">
+          <span class="expect2-ic ic-blue">📚</span>
+          <h3>Platforma va darslik materiallari</h3>
+        </div>
+        <p>
+          Video darsliklar (+42), test va mashqlar, audio darsliklar, rus tilida matnlar
+          (dialog/monolog), lug‘atlar (yozma va audio).
+        </p>
+        <div class="plans">
+          <a class="plan plan--standart" href="#tariflar">STANDART</a>
+          <a class="plan plan--premium" href="#tariflar">PREMIUM</a>
+          <a class="plan plan--joziba" href="#tariflar">JOZIBA</a>
+          <a class="plan plan--vip" href="#tariflar">VIP</a>
+        </div>
+      </article>
+
+      <!-- 3: Ustoz nazorati -->
+      <article class="expect2-card">
+        <div class="expect2-card__head">
+          <span class="expect2-ic ic-amber">🧑‍🏫</span>
+          <h3>Ustoz nazorati (3 oy)</h3>
+        </div>
+        <p>
+          Ustoz dars sifati va progressni kuzatadi: xatolar, tavsiyalar, yo‘nalish.
+        </p>
+        <div class="plans">
+          <a class="plan plan--standart" href="#tariflar">STANDART</a>
+          <a class="plan plan--premium" href="#tariflar">PREMIUM</a>
+          <a class="plan plan--joziba" href="#tariflar">JOZIBA</a>
+          <a class="plan plan--vip" href="#tariflar">VIP</a>
+        </div>
+      </article>
+
+      <!-- 4: Razgovor -->
+      <article class="expect2-card">
+        <div class="expect2-card__head">
+          <span class="expect2-ic ic-teal">🗣️</span>
+          <h3>“Razgovor” darslar</h3>
+        </div>
+        <p>
+          Haftada 3 kun speaking amaliyot: real vaziyatlar, dialoglar, talaffuz va practice.
+          <br><small class="note">VIP’da format individual bo‘lgani uchun davomiyligi boshqacha bo‘lishi mumkin.</small>
+        </p>
+        <div class="plans">
+          <a class="plan plan--standart" href="#tariflar">STANDART</a>
+          <a class="plan plan--premium" href="#tariflar">PREMIUM</a>
+          <a class="plan plan--joziba" href="#tariflar">JOZIBA</a>
+          <a class="plan plan--vip" href="#tariflar">VIP</a>
+        </div>
+      </article>
+
+      <!-- 5: Yordamchi ustoz -->
+      <article class="expect2-card">
+        <div class="expect2-card__head">
+          <span class="expect2-ic ic-pink">🤝</span>
+          <h3>Yordamchi ustoz bilan amaliyot</h3>
+        </div>
+        <p>
+          Individual suhbat va amaliyot (haftada 1 kun) — gapirishni tez chiqarish uchun.
+        </p>
+        <div class="plans">
+          <a class="plan plan--premium" href="#tariflar">PREMIUM</a>
+          <a class="plan plan--joziba" href="#tariflar">JOZIBA</a>
+          <a class="plan plan--vip" href="#tariflar">VIP</a>
+        </div>
+      </article>
+
+      <!-- 7: Sertifikat (по твоему скрину: в VIP не видно, поэтому не ставлю) -->
+      <article class="expect2-card">
+        <div class="expect2-card__head">
+          <span class="expect2-ic ic-green">🏅</span>
+          <h3>Yakuni sertifikat</h3>
+        </div>
+        <p>
+          Kurs yakunida sertifikat. 
+        </p>
+        <div class="plans">
+          <a class="plan plan--standart" href="#tariflar">STANDART</a>
+          <a class="plan plan--premium" href="#tariflar">PREMIUM</a>
+          <a class="plan plan--joziba" href="#tariflar">JOZIBA</a>
+          <a class="plan plan--vip" href="#tariflar">VIP</a>
+        </div>
+      </article>
+
+      <!-- 8: Kitob -->
+      <article class="expect2-card">
+        <div class="expect2-card__head">
+          <span class="expect2-ic ic-slate">📘</span>
+          <h3>Maxsus amaliyot kitobi</h3>
+        </div>
+        <p>
+          Amaliy topshiriqlar, real dialoglar va mustahkamlash uchun materiallar.
+        </p>
+        <div class="plans">
+          <a class="plan plan--standart" href="#tariflar">STANDART</a>
+          <a class="plan plan--premium" href="#tariflar">PREMIUM</a>
+          <a class="plan plan--joziba" href="#tariflar">JOZIBA</a>
+          <a class="plan plan--vip" href="#tariflar">VIP</a>
+        </div>
+      </article>
+    </div>
+
+    <a class="btn expect2__cta" href="#cta-form">Ariza qoldirish</a>
+  </div>
+</section>
+
+<section id="imkoniyatlar" class="benefits">
+  <div class="container">
+    <h2 class="benefits__title">Imkoniyatlar — ajoyib!</h2>
+    <p class="benefits__sub">
+      Rus tilini o‘rganganingizdan keyin nafaqat gapirasiz — ish, hujjatlar va kundalik muloqotda ham erkin bo‘lasiz.
+      Tariflar bo‘yicha imkoniyatlar farqi quyidagicha:
+    </p>
+
+    <div class="benefits__grid">
+      <!-- 1 -->
+      <article class="bcard bcard--mint">
+        <div class="bcard__head">
+          <span class="bcard__icon">🎧</span>
+          <h3 class="bcard__title">Qo‘shiqlar va filmlarni tushunasiz</h3>
+        </div>
+        <p class="bcard__text">
+          Ruscha qo‘shiqlar ma’nosi, vloglar, seriallar va oddiy videolarni
+          tarjimasiz ham tushunib borasiz. Listening tez o‘sadi.
+        </p>
+      </article>
+
+      <!-- 2 -->
+      <article class="bcard bcard--blue">
+        <div class="bcard__head">
+          <span class="bcard__icon">🗣️</span>
+          <h3 class="bcard__title">Gapirish “qo‘rqinch” bo‘lmay qoladi</h3>
+        </div>
+        <p class="bcard__text">
+          Kundalik muloqot: do‘kon, taksi, poliklinika, ishdagi suhbatlar —
+          “qotib qolish” kamayadi. Gap tuzish avtomatiklashadi.
+        </p>
+      </article>
+
+      <!-- 3 -->
+      <article class="bcard bcard--violet">
+        <div class="bcard__head">
+          <span class="bcard__icon">💼</span>
+          <h3 class="bcard__title">Ish va karerada imkoniyat ochiladi</h3>
+        </div>
+        <p class="bcard__text">
+          Rus tilini bilgan odamga ish topish osonroq: suhbatdan o‘tish,
+          jamoada ishlash, mijoz bilan gaplashish va daromadni oshirish mumkin.
+        </p>
+      </article>
+
+      <!-- 4 -->
+      <article class="bcard bcard--orange">
+        <div class="bcard__head">
+          <span class="bcard__icon">📝</span>
+          <h3 class="bcard__title">Hujjat va yozishmalarni eplay olasiz</h3>
+        </div>
+        <p class="bcard__text">
+          Anketa to‘ldirish, ariza yozish, oddiy rasmiy xatlar,
+          ishdagi chat va email yozish — hammasi ancha osonlashadi.
+        </p>
+      </article>
+
+      <!-- 5 -->
+      <article class="bcard bcard--pink">
+        <div class="bcard__head">
+          <span class="bcard__icon">🌍</span>
+          <h3 class="bcard__title">Safar va chet elda o‘zingizni erkin tutasiz</h3>
+        </div>
+        <p class="bcard__text">
+          Aeroport, mehmonxona, transport, hujjatlar, yo‘l so‘rash —
+          stress kamayadi. “Tushunmadim” kamroq bo‘ladi.
+        </p>
+      </article>
+
+      <!-- 6 -->
+      <article class="bcard bcard--gold">
+        <div class="bcard__head">
+          <span class="bcard__icon">🏆</span>
+          <h3 class="bcard__title">Natija o‘lchanadi va ishonch paydo bo‘ladi</h3>
+        </div>
+        <p class="bcard__text">
+          O‘z o‘sishingizni sezasiz: yangi so‘zlar, tez tushunish, gapirish.
+          Eng muhimi — o‘zingizga ishonch kuchayadi.
+        </p>
+      </article>
+
+
+
+    </div>
+
+    <a class=" btn btn--full expect2__cta" href="#cta-form">Ishtirok etish!</a>
+  </div>
+</section>
+
+
+
+<!-- Tariffs -->
+    <section class="section" id="tariffs">
+    <div class="container">
+        <div class="section__head">
+        <div>
+            <h2>Tariflar</h2>
+            <p class="muted">Maqsadingizga mos paketni tanlang — biz guruhni moslab beramiz.</p>
+        </div>
+        </div>
+
+        <div class="grid4 pricing">
+        <!-- STANDART -->
+        <article class="card price-card">
+            <div class="discount">10%</div>
+            <h3 class="tarifs">STANDART</h3>
+
+            <div class="materials">
+            <b>Darslik uchun materiallar:</b>
+            <ul class="bullets">
+                <li>Video darsliklar +42</li>
+                <li>Test va mashqlar</li>
+                <li>Audio darsliklar</li>
+                <li>Rus tilida matnlar (dialog va monolog shaklida)</li>
+                <li>Lug‘atlar (yozma va audio)</li>
+            </ul>
+            </div>
+
+            <ul class="features">
+            <li>Platformadan 1 yil foydalanish imkoniyati</li>
+            <li>Chat guruh</li>
+            <li>Ustoz nazorati 3 oy</li>
+            <li>Maxsus amaliyot kitobi</li>
+            <li>“Razgovor” darslar <span class="muted">(haftada 3 kun, 1.5 soatdan)</span></li>
+            <li>Yordamchi ustoz bilan amaliyot <span class="muted">(individual suhbat haftada 1 kun)</span></li>
+            <li>Yakuniy sertifikat</li>
+            <li>Guruhda 20 kishi</li>
+            </ul>
+
+            <div class="line"></div>
+
+            <div class="price">
+            <div class="sum">2 249 100 so‘m</div>
+            <div class="rub muted">15 550 ₽</div>
+            </div>
+            <div class="per">Oyiga — 374 850 so‘m</div>
+
+            <a class="btn btn--full" href="#cta-form">Ariza qoldirish</a>
+        </article>
+
+        <!-- PREMIUM -->
+        <article class="card price-card price-card--blue">
+            <div class="discount">10%</div>
+            <h3 class="tarifs">PREMIUM</h3>
+
+            <div class="materials">
+            <b>Darslik uchun materiallar:</b>
+            <ul class="bullets">
+                <li>Video darsliklar +42</li>
+                <li>Test va mashqlar</li>
+                <li>Audio darsliklar</li>
+                <li>Rus tilida matnlar (dialog va monolog shaklida)</li>
+                <li>Lug‘atlar (yozma va audio)</li>
+            </ul>
+            </div>
+
+            <ul class="features">
+            <li>Platformadan 1 yil foydalanish imkoniyati</li>
+            <li>Chat guruh</li>
+            <li>Ustoz nazorati 3 oy</li>
+            <li>Maxsus amaliyot kitobi</li>
+            <li>“Razgovor” darslar <span class="muted-invert">(haftada 3 kun, 1.5 soatdan)</span></li>
+            <li>Yordamchi ustoz bilan amaliyot <span class="muted-invert">(individual suhbat haftada 1 kun)</span></li>
+            <li>Yakuniy sertifikat</li>
+            <li>Guruhda 15 kishi</li>
+            </ul>
+
+            <div class="line line--invert"></div>
+
+            <div class="price">
+            <div class="sum">2 699 100 so‘m</div>
+            <div class="rub muted-invert">18 674 ₽</div>
+            </div>
+            <div class="per per--invert">Oyiga — 449 850 so‘m</div>
+
+            <a class="btn btn--full" href="#cta-form">Ariza qoldirish</a>
+        </article>
+
+        <!-- JOZIBA -->
+        <article class="card price-card price-card--pink">
+            <div class="discount">10%</div>
+            <h3 class="tarifs">JOZIBA</h3>
+
+            <div class="materials">
+            <b>Darslik uchun materiallar:</b>
+            <ul class="bullets">
+                <li>Video darsliklar +42</li>
+                <li>Test va mashqlar</li>
+                <li>Audio darsliklar</li>
+                <li>Rus tilida matnlar (dialog va monolog shaklida)</li>
+                <li>Lug‘atlar (yozma va audio)</li>
+            </ul>
+            </div>
+
+            <ul class="features">
+            <li>Platformadan 1 yil foydalanish imkoniyati</li>
+            <li>Chat guruh</li>
+            <li>Ustoz nazorati 3 oy</li>
+            <li>Maxsus amaliyot kitobi</li>
+            <li>“Razgovor” darslar <span class="muted-invert">(haftada 3 kun, 1.5 soatdan)</span></li>
+            <li>Yordamchi ustoz bilan amaliyot <span class="muted-invert">(individual suhbat haftada 1 kun)</span></li>
+            <li>Yakuniy sertifikat</li>
+            <li>Guruhda 10 kishi <span class="muted-invert">(faqat ayollar)</span></li>
+            </ul>
+
+            <div class="line line--invert"></div>
+
+            <div class="price">
+            <div class="sum">3 239 100 so‘m</div>
+            <div class="rub muted-invert">22 350 ₽</div>
+            </div>
+            <div class="per per--invert">Oyiga — 539 850 so‘m</div>
+
+            <a class="btn btn--full" href="#cta-form">Ariza qoldirish</a>
+        </article>
+
+        <!-- VIP -->
+        <article class="card price-card">
+            <div class="discount">5%</div>
+            <h3 class="tarifs">VIP</h3>
+
+            <div class="materials">
+            <b>Darslik uchun materiallar:</b>
+            <ul class="bullets">
+                <li>Video darsliklar +42</li>
+                <li>Test va mashqlar</li>
+                <li>Audio darsliklar</li>
+                <li>Rus tilida matnlar (dialog va monolog shaklida)</li>
+                <li>Lug‘atlar (yozma va audio)</li>
+            </ul>
+            </div>
+
+            <ul class="features">
+            <li>Platformadan 1 yil foydalanish imkoniyati</li>
+            <li>Chat guruh</li>
+            <li>Ustoz nazorati 3 oy</li>
+            <li>Maxsus amaliyot kitobi</li>
+            <li>“Razgovor” darslar <span class="muted">(haftada 3 kun, 1 soatdan)</span></li>
+            <li>Yordamchi ustoz bilan amaliyot <span class="muted">(individual suhbat haftada 1 kun)</span></li>
+            <li>Guruhda 1 kishi <span class="muted">(individual)</span></li>
+            </ul>
+
+            <div class="line"></div>
+
+            <div class="price">
+            <div class="sum">7 599 050 so‘m</div>
+            <div class="rub muted">52 450 ₽</div>
+            </div>
+            <div class="per">Oyiga — 1 266 508 so‘m</div>
+
+            <a class="btn btn--full" href="#cta-form">Ariza qoldirish</a>
+        </article>
+        </div>
+    </div>
+    </section>
+
+
+<!-- Modal -->
+<div class="yt-modal" id="ytModal" aria-hidden="true">
+  <div class="yt-modal__backdrop" data-close></div>
+
+  <div class="yt-modal__panel" role="dialog" aria-modal="true">
+    <button class="yt-modal__close" type="button" data-close aria-label="Yopish">✕</button>
+
+    <div class="yt-modal__frame">
+      <iframe
+        id="ytFrame"
+        src=""
+        title="YouTube video"
+        frameborder="0"
+        allow="autoplay; encrypted-media; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+
+    <!-- CTA Form (после Shorts) -->
+    <section class="section" id="cta-form">
+    <div class="container">
+        <div class="card glass cta-form">
+        <div class="cta-form__left">
+            <h2>Batafsil ma’lumot uchun ariza qoldiring!</h2>
+            <p class="muted">
+            Sizga bog‘lanamiz, darajangizni aniqlaymiz va eng mos tarifni tavsiya qilamiz.
+            </p>
+
+            <div class="cta-points">
+            <div class="cta-point"><span>⚡</span><b>Tezkor aloqa</b><small class="muted">1–2 daqiqada ariza</small></div>
+            <div class="cta-point"><span>🎯</span><b>Tarif tanlash</b><small class="muted">maqsadga mos</small></div>
+            <div class="cta-point"><span>📞</span><b>Konsultatsiya</b><small class="muted">bepul</small></div>
+            </div>
+        </div>
+
+        <div class="cta-form__right">
+            <form class="form" id="ctaLead">
+            <label class="field">
+                <span>Ism</span>
+                <input name="name" placeholder="Ism" required />
+            </label>
+
+            <label class="field">
+                <span>Telefon</span>
+                <input name="phone" type="tel" inputmode="tel" placeholder="+998 90 123 45 67" required />
+            </label>
+
+
+            <label class="field">
+                <span>Qaysi tarif qiziqtiradi?</span>
+                <select name="tarif" required>
+                <option>Standart</option>
+                <option>Premium</option>
+                <option>Joziba</option>
+                <option>VIP</option>
+                </select>
+            </label>
+            <div class="wa-note">
+              <img class="wa-note__icon" src="img/whatsapp.png" alt="WhatsApp" />
+              <div class="wa-note__text">
+                Agar chet elda bo‘lsangiz WhatsApp nomeringizni yozib qoldiring
+              </div>
+            </div>
+
+            <button class="btn btn--full" type="submit">Arizani yuborish</button>
+
+            <div class="safe">
+                <!-- <span class="safe__icon">🔒</span>
+                <span class="tiny muted">Ma’lumotlar himoyalangan.</span> -->
+            </div>
+            <input type="hidden" name="utm_source">
+            <input type="hidden" name="utm_medium">
+            <input type="hidden" name="utm_campaign">
+            <input type="hidden" name="utm_content">
+            <input type="hidden" name="utm_term">
+
+            </form>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Modal: Shorts player -->
+    <div class="shorts-modal" id="shortsModal" aria-hidden="true">
+    <div class="shorts-modal__backdrop" data-close></div>
+
+    <div class="shorts-modal__panel" role="dialog" aria-modal="true" aria-label="Shorts video">
+        <button class="shorts-modal__close" type="button" data-close aria-label="Yopish">✕</button>
+        <a class="open-youtube" id="openYoutube" href="#" target="_blank" rel="noreferrer">
+        Video ochilmasa — YouTube’da ochish
+        </a>
+
+        <div class="shorts-modal__frame">
+        <iframe
+        id="shortsFrame"
+        src=""
+        title="YouTube Shorts"
+        frameborder="0"
+        allow="autoplay; encrypted-media; picture-in-picture; web-share"
+        allowfullscreen>
+        </iframe>
+        </div>
+    </div>
+    </div>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <h2>Ko'p beriladigan savollar</h2>
+          </div>
+        </div>
+
+        <div class="faq">
+            <details class="card">
+            <summary>Kurslaringiz oflayn ham bo’ladimi?</summary>
+            <p class="muted">
+Yo’q, bizning maktabimiz faqatgina onlayn o’qitishga yo’naltirilgan, buning asosiy sababi esa onlayn ta’limning samarali va qulay ekanligidir.
+
+<br><br>O'zingiz xohlagan vaqtda, shinamgina joyda, yo’lga vaqt sarflamasdan va xarajat qilmasdan, mazza qilib darsda o’tirishga nima yetsin?</p>
+          </details>
+          <details class="card">
+            <summary>Sinov darsi bormi?</summary>
+            <p class="muted">Ha. Ariza qoldiring — qulay vaqtni kelishamiz.</p>
+          </details>
+          <details class="card">
+            <summary>Kurs qancha davom etadi?</summary>
+            <p class="muted"> Kurs 3 oy davom etadi</p>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacts -->
+    <section class="section" id="contacts">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <h2>Contact</h2>
+          </div>
+        </div>
+
+        <div class="grid2">
+          <div class="card">
+            <p><b>Telefon:</b> <a href="tel:+998000000000">+998 55 520 67 67</a></p>
+            <p><b>Manzil:</b> Toshkent, …</p>
+            
+          </div>
+
+          <div class="card glass">
+            <h3>Telegram orqali</h3>
+            <p class="muted">Bosib yozing — tez javob beramiz.</p>
+            <a class="btn btn--full" href="https://t.me/aloqa_ilm_bot/start" target="_blank" rel="noreferrer">Telegramga yozish</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__wrap">
+      <div class="muted">MCHJ "RUS TILI ONLINE"</div>
+      <a class="muted" href="#">2025</a>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+  <script src="server.js"></script>
+</body>
+</html>
