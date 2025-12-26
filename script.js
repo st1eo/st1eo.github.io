@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // logo swap
     if (brandLogo) {
-        brandLogo.src = theme === "light" ? "img/blue.png" : "img/white.png";
+        brandLogo.src = theme === "light" ? "blue.png" : "white.png";
     }
  }
 
